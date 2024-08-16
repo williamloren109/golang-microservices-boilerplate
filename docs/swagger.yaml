@@ -35,7 +35,7 @@ definitions:
   auth.LoginRequest:
     properties:
       email:
-        example: gbrayhan@gmail.com
+        example: william.loreen.dev@gmail.com
         type: string
       password:
         example: Password123
@@ -49,13 +49,13 @@ definitions:
       message:
         type: string
     type: object
-  github_com_gbrayhan_microservices-go_src_application_usecases_medicine.PaginationResultMedicine:
+  github_com_williamloren109_golang-microservices-boilerplate_src_application_usecases_medicine.PaginationResultMedicine:
     properties:
       current:
         type: integer
       data:
         items:
-          $ref: '#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine'
+          $ref: '#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine'
         type: array
       limit:
         type: integer
@@ -68,7 +68,7 @@ definitions:
       total:
         type: integer
     type: object
-  github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine:
+  github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine:
     properties:
       createdAt:
         type: string
@@ -197,9 +197,9 @@ definitions:
 host: localhost:8080
 info:
   contact:
-    email: gbrayhan@gmail.com
-    name: Alejandro Gabriel Guerrero
-    url: http://github.com/gbrayhan
+    email: william.loreen.dev@gmail.com
+    name: William Loren
+    url: http://github.com/williamloren109
   description: Documentation's Boilerplate Golang
   license:
     name: Apache 2.0
@@ -279,7 +279,7 @@ paths:
           description: OK
           schema:
             items:
-              $ref: '#/definitions/github_com_gbrayhan_microservices-go_src_application_usecases_medicine.PaginationResultMedicine'
+              $ref: '#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_application_usecases_medicine.PaginationResultMedicine'
             type: array
         "400":
           description: Bad Request
@@ -309,7 +309,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine'
+            $ref: '#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine'
         "400":
           description: Bad Request
           schema:
@@ -334,7 +334,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine'
+            $ref: '#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine'
         "400":
           description: Bad Request
           schema:

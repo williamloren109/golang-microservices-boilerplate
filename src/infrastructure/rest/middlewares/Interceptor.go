@@ -7,11 +7,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/gbrayhan/microservices-go/src/application/services"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/application/services"
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/gbrayhan/microservices-go/utils"
+	"github.com/williamloren109/golang-microservices-boilerplate/utils"
 )
 
 type bodyLogWriter struct {

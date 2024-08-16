@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gbrayhan/microservices-go/src/application/security/jwt"
-	errorsDomain "github.com/gbrayhan/microservices-go/src/domain/errors"
-	userRepository "github.com/gbrayhan/microservices-go/src/infrastructure/repository/user"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/application/security/jwt"
+	errorsDomain "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
+	userRepository "github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/repository/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

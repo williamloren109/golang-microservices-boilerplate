@@ -4,11 +4,11 @@ package medicine
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gbrayhan/microservices-go/src/domain"
-	"github.com/gbrayhan/microservices-go/src/infrastructure/repository"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/domain"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/repository"
 
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
-	domainMedicine "github.com/gbrayhan/microservices-go/src/domain/medicine"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
+	domainMedicine "github.com/williamloren109/golang-microservices-boilerplate/src/domain/medicine"
 	"gorm.io/gorm"
 )
 

@@ -2,7 +2,7 @@
 package user
 
 import (
-	userDomain "github.com/gbrayhan/microservices-go/src/domain/user"
+	userDomain "github.com/williamloren109/golang-microservices-boilerplate/src/domain/user"
 )
 
 func domainToResponseMapper(userDomain *userDomain.User) (createUserResponse *ResponseUser) {

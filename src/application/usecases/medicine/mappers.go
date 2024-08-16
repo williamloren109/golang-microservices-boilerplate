@@ -2,7 +2,7 @@
 package medicine
 
 import (
-	domainMedicine "github.com/gbrayhan/microservices-go/src/domain/medicine"
+	domainMedicine "github.com/williamloren109/golang-microservices-boilerplate/src/domain/medicine"
 )
 
 func (n *NewMedicine) toDomainMapper() *domainMedicine.Medicine {

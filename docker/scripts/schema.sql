@@ -40,7 +40,7 @@ create table if not exists users
 
 -- TODO: you should consider to change this user and password ons your production environment
 INSERT INTO boilerplate_go.users (user_name,email,first_name,last_name,status,hash_password,created_at,updated_at) VALUES
-    ('gbrayhan','gbrayhan@gmail.com','Alejandro','Gabriel',1,'$2a$10$ARGDNUz.xsfWAaS2KCG2T.h5N3d9NTf77i0Q5dp6FdpYXSJI08ijW','2024-01-23 03:23:20','2024-01-23 03:23:20');
+    ('williamloren109','william.loreen.dev@gmail.com','William','Loren',1,'$2a$10$ARGDNUz.xsfWAaS2KCG2T.h5N3d9NTf77i0Q5dp6FdpYXSJI08ijW','2024-01-23 03:23:20','2024-01-23 03:23:20');
 
 
 GRANT ALL ON *.* to 'appuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youShouldChangeThisPassword';

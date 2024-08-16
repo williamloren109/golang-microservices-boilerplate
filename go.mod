@@ -1,4 +1,4 @@
-module github.com/gbrayhan/microservices-go
+module github.com/williamloren109/golang-microservices-boilerplate
 
 go 1.21
 

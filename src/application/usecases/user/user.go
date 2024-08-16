@@ -2,8 +2,8 @@
 package user
 
 import (
-	userDomain "github.com/gbrayhan/microservices-go/src/domain/user"
-	userRepository "github.com/gbrayhan/microservices-go/src/infrastructure/repository/user"
+	userDomain "github.com/williamloren109/golang-microservices-boilerplate/src/domain/user"
+	userRepository "github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/repository/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

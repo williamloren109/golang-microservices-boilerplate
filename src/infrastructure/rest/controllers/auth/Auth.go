@@ -2,9 +2,9 @@
 package auth
 
 import (
-	useCaseAuth "github.com/gbrayhan/microservices-go/src/application/usecases/auth"
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
-	"github.com/gbrayhan/microservices-go/src/infrastructure/rest/controllers"
+	useCaseAuth "github.com/williamloren109/golang-microservices-boilerplate/src/application/usecases/auth"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/controllers"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

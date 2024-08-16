@@ -11,9 +11,9 @@ const docTemplate = `{
         "title": "{{.Title}}",
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
-            "name": "Alejandro Gabriel Guerrero",
-            "url": "http://github.com/gbrayhan",
-            "email": "gbrayhan@gmail.com"
+            "name": "William Loren",
+            "url": "http://github.com/williamloren109",
+            "email": "william.loreen.dev@gmail.com"
         },
         "license": {
             "name": "Apache 2.0",
@@ -133,7 +133,7 @@ const docTemplate = `{
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/github_com_gbrayhan_microservices-go_src_application_usecases_medicine.PaginationResultMedicine"
+                                "$ref": "#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_application_usecases_medicine.PaginationResultMedicine"
                             }
                         }
                     },
@@ -178,7 +178,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine"
+                            "$ref": "#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine"
                         }
                     },
                     "400": {
@@ -216,7 +216,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine"
+                            "$ref": "#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine"
                         }
                     },
                     "400": {
@@ -419,7 +419,7 @@ const docTemplate = `{
             "properties": {
                 "email": {
                     "type": "string",
-                    "example": "gbrayhan@gmail.com"
+                    "example": "william.loreen.dev@gmail.com"
                 },
                 "password": {
                     "type": "string",
@@ -435,7 +435,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_gbrayhan_microservices-go_src_application_usecases_medicine.PaginationResultMedicine": {
+        "github_com_williamloren109_golang-microservices-boilerplate_src_application_usecases_medicine.PaginationResultMedicine": {
             "type": "object",
             "properties": {
                 "current": {
@@ -444,7 +444,7 @@ const docTemplate = `{
                 "data": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine"
+                        "$ref": "#/definitions/github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine"
                     }
                 },
                 "limit": {
@@ -464,7 +464,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_gbrayhan_microservices-go_src_domain_medicine.Medicine": {
+        "github_com_williamloren109_golang-microservices-boilerplate_src_domain_medicine.Medicine": {
             "type": "object",
             "properties": {
                 "createdAt": {

@@ -1,7 +1,7 @@
 // Package medicine contains the medicine controller
 package medicine
 
-import "github.com/gbrayhan/microservices-go/src/infrastructure/rest/controllers"
+import "github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/controllers"
 
 // NewMedicineRequest is a struct that contains the new medicine request information
 type NewMedicineRequest struct {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
 	"github.com/go-playground/validator/v10"
 )
 

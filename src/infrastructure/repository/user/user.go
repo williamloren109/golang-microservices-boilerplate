@@ -4,9 +4,9 @@ package user
 import (
 	"encoding/json"
 	"fmt"
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
-	domainUser "github.com/gbrayhan/microservices-go/src/domain/user"
-	"github.com/gbrayhan/microservices-go/src/infrastructure/repository"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
+	domainUser "github.com/williamloren109/golang-microservices-boilerplate/src/domain/user"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/repository"
 	"gorm.io/gorm"
 )
 

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strconv"
 
-	useCaseUser "github.com/gbrayhan/microservices-go/src/application/usecases/user"
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
-	"github.com/gbrayhan/microservices-go/src/infrastructure/rest/controllers"
+	useCaseUser "github.com/williamloren109/golang-microservices-boilerplate/src/application/usecases/user"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/controllers"
 	"github.com/gin-gonic/gin"
 )
 

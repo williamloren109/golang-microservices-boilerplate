@@ -2,7 +2,7 @@
 package auth
 
 import (
-	userDomain "github.com/gbrayhan/microservices-go/src/domain/user"
+	userDomain "github.com/williamloren109/golang-microservices-boilerplate/src/domain/user"
 )
 
 func secAuthUserMapper(domainUser *userDomain.User, authInfo *Auth) *SecurityAuthenticatedUser {

@@ -4,7 +4,7 @@ package errors
 import (
 	"net/http"
 
-	domainErrors "github.com/gbrayhan/microservices-go/src/domain/errors"
+	domainErrors "github.com/williamloren109/golang-microservices-boilerplate/src/domain/errors"
 	"github.com/gin-gonic/gin"
 )
 

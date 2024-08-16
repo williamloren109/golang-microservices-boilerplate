@@ -1,11 +1,11 @@
 # Golang Microservices Boilerplate - Clean Architecture
 
-[![issues](https://img.shields.io/github/issues/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/tree/master/.github/ISSUE_TEMPLATE)
-[![forks](https://img.shields.io/github/forks/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/network/members)
-[![stars](https://img.shields.io/github/stars/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/stargazers)
-[![license](https://img.shields.io/github/license/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/tree/master/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/gbrayhan/microservices-go/badge/main)](https://www.codefactor.io/repository/github/gbrayhan/microservices-go/overview/main)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6c10cc49928447f38952edaab67a94a4)](https://www.codacy.com/gh/gbrayhan/microservices-go/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gbrayhan/microservices-go&amp;utm_campaign=Badge_Grade)
+[![issues](https://img.shields.io/github/issues/williamloren109/golang-microservices-boilerplate)](https://github.com/williamloren109/golang-microservices-boilerplate/tree/master/.github/ISSUE_TEMPLATE)
+[![forks](https://img.shields.io/github/forks/williamloren109/golang-microservices-boilerplate)](https://github.com/williamloren109/golang-microservices-boilerplate/network/members)
+[![stars](https://img.shields.io/github/stars/williamloren109/golang-microservices-boilerplate)](https://github.com/williamloren109/golang-microservices-boilerplate/stargazers)
+[![license](https://img.shields.io/github/license/williamloren109/golang-microservices-boilerplate)](https://github.com/williamloren109/golang-microservices-boilerplate/tree/master/LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/williamloren109/golang-microservices-boilerplate/badge/main)](https://www.codefactor.io/repository/github/williamloren109/golang-microservices-boilerplate/overview/main)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6c10cc49928447f38952edaab67a94a4)](https://www.codacy.com/gh/williamloren109/golang-microservices-boilerplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=williamloren109/golang-microservices-boilerplate&amp;utm_campaign=Badge_Grade)
 
 Example structure to start a microservices project with golang. Using a MySQL databaseSQL. Using a Hexagonal
 Architecture tha is a Clean Architecture.
@@ -17,7 +17,7 @@ If you would still prefer to do the installation manually, follow these steps:
 Clone the repo:
 
 ```bash
-git clone https://github.com/gbrayhan/microservices-go
+git clone https://github.com/williamloren109/golang-microservices-boilerplate
 ```
 
 If you need, configure the environment variables in file config.json, if you use docker-compose leave the variables set
@@ -29,8 +29,8 @@ cp config.json.example config.json
 
 **TL;DR command list**
 
-    git clone https://github.com/gbrayhan/microservices-go
-    cd microservices-go
+    git clone https://github.com/williamloren109/golang-microservices-boilerplate
+    cd golang-microservices-boilerplate
     cp config.json.example config.json
     docker-compose up  --build  -d
 

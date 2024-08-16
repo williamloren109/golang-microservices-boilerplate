@@ -1,7 +1,7 @@
 // Package user contains the user controller
 package user
 
-import "github.com/gbrayhan/microservices-go/src/infrastructure/rest/controllers"
+import "github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/controllers"
 
 // NewUserRequest is a struct that contains the request body for the new user
 type NewUserRequest struct {

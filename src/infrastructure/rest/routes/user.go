@@ -2,8 +2,8 @@
 package routes
 
 import (
-	userController "github.com/gbrayhan/microservices-go/src/infrastructure/rest/controllers/user"
-	"github.com/gbrayhan/microservices-go/src/infrastructure/rest/middlewares"
+	userController "github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/controllers/user"
+	"github.com/williamloren109/golang-microservices-boilerplate/src/infrastructure/rest/middlewares"
 	"github.com/gin-gonic/gin"
 )
 
